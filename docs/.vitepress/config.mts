@@ -11,6 +11,14 @@ export default defineConfig({
       prev: "上一篇", //Next page
       next: "下一篇", //Previous page
     },
+    search: {
+      provider: 'algolia',
+      options: {
+        appId: '178HCSX9QV',
+        apiKey: 'f7bb0c8dde031f493be81a5b51b10975',
+        indexName: '178HCSX9QV'
+      }
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
