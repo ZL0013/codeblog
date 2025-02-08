@@ -4,9 +4,11 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "编程小白",
   description: "编程学习",
-  lastUpdated: true,
   base: '/',
   themeConfig: {
+    lastUpdated: {
+      text: '上次更新',
+    },
     docFooter: {
       prev: "上一篇", //Next page
       next: "下一篇", //Previous page
