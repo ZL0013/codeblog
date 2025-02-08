@@ -5,7 +5,7 @@ export default defineConfig({
   title: "编程小白",
   description: "编程学习",
   lastUpdated: true,
-  base: '/codeblog',
+  base: '/codeblog/',
   themeConfig: {
     docFooter: {
       prev: "上一篇", //Next page
