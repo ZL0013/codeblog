@@ -43,13 +43,13 @@ export default defineConfig({
             }
           ]
         },
-        {
-          text: '面试题',
-          items: [
-            { text: '环境准备', link: '/guide/path' },
-            { text: '软件', link: '/guide/ide' }
-          ]
-        }
+        // {
+        //   text: '面试题',
+        //   items: [
+        //     { text: '环境准备', link: '/guide/path' },
+        //     { text: '软件', link: '/guide/ide' }
+        //   ]
+        // }
       ],
       '/ai/': [
         {
