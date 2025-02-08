@@ -13,6 +13,13 @@ export default defineConfig({
       prev: "上一篇", //Next page
       next: "下一篇", //Previous page
     },
+    //当前页面 On this page
+    outlineTitle: "页面内容",
+
+    // 返回顶部 Return to top
+    returnToTopLabel: "返回顶部",
+
+    // algolia 搜索配置
     search: {
       provider: 'algolia',
       options: {
