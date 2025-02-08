@@ -26,7 +26,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '编程', link: '/guide/', activeMatch: '/guide/' },
       { text: 'AI', link: '/ai/', activeMatch: '/ai/' },
-      { text: '杂记', link: '/document/', activeMatch: '/document/' },
+      { text: '杂记', link: '/document/', activeMatch: '/document/vitepress/' },
       {
         text: '常用站点',
         items: [
@@ -75,7 +75,8 @@ export default defineConfig({
           items: [
             {
               items: [
-                { text: '快速开始', link: '/document/vitepress' }
+                { text: '说明', link: '/document/vitepress/show' },
+                { text: '快速开始', link: '/document/vitepress/index' }
               ]
             },
           ]

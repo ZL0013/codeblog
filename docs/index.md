@@ -12,7 +12,7 @@ hero:
       link: /guide/
     - theme: alt
       text: 搭建教程
-      link: /document/vitepress/
+      link: /document/vitepress/show
 
 features:
   - title: 编程教程
