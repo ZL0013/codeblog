@@ -13,7 +13,7 @@ export default defineConfig({
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '首页', link: '/' },
+      { text: '首页', link: '/index' },
       { text: '编程', link: '/guide/', activeMatch: '/guide/' },
       { text: 'AI', link: '/ai/', activeMatch: '/ai/' },
       { text: '杂记', link: '/document/', activeMatch: '/document/' },
