@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 快速开始 →
-      link: /markdown-examples
+      link: /guide/
     - theme: alt
       text: 搭建教程
-      link: /api-examples
+      link: /document/vitepress/
 
 features:
   - title: 编程教程

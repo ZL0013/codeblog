@@ -38,7 +38,7 @@ export default defineConfig({
               text: 'Java',
               collapsed: true,
               items: [
-                {text: '基础', link: '/guide/java'}
+                { text: '基础', link: '/guide/java' }
               ]
             }
           ]
@@ -55,17 +55,19 @@ export default defineConfig({
         {
           text: 'AI',
           items: [
-            { text: 'Markdown Examples', link: '/markdown-examples' },
-            { text: 'Runtime API Examples', link: '/api-examples' }
+            { text: '常用工具', link: '/ai' },
           ]
         }
       ],
       '/document/': [
         {
-          text: '杂记',
+          text: 'vitepress 搭建教程',
           items: [
-            { text: 'Markdown Examples', link: '/markdown-examples' },
-            { text: 'Runtime API Examples', link: '/api-examples' }
+            {
+              items: [
+                { text: '快速开始', link: '/document/vitepress' }
+              ]
+            },
           ]
         }
       ]
