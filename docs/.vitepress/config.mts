@@ -14,7 +14,7 @@ export default defineConfig({
       next: "下一篇", //Previous page
     },
     //当前页面 On this page
-    outlineTitle: "页面内容",
+    outlineTitle: "快速导航",
 
     // 返回顶部 Return to top
     returnToTopLabel: "返回顶部",
